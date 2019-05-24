@@ -1,2 +1,14 @@
 theme: jekyll-theme-cayman
-permalink: /posts/:title/
+permalink: /posts/:title
+
+collections:
+  articles:
+    permalink: /:collection/:title
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "default"
