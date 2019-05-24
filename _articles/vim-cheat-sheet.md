@@ -1,8 +1,8 @@
 ---
 title: VIM cheat sheet
-categories:
-- blog
 ---
+
+Немного полезностей для vim, чтобы не забыть.
 
 ## Modules
 
